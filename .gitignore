@@ -1,0 +1,8 @@
+# PyCharm / JetBrains files
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Local Git metadata (if you have nested repos)
+.git/
