@@ -1,0 +1,109 @@
+,period,stateid,stateDescription,sectorid,sectorName,customers,price,revenue,sales,customers-units,price-units,revenue-units,sales-units
+0,2024-06,VA,Virginia,IND,industrial,3964,8.84,123.6965,1398.75048,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+1,2024-06,VA,Virginia,OTH,other,,,,,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+2,2024-06,VA,Virginia,RES,residential,3679257,15.31,650.42425,4248.38141,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+3,2024-06,VA,Virginia,ALL,all sectors,4135768,11.5,1378.52957,11984.50353,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+4,2024-06,VA,Virginia,TRA,transportation,1,9.62,1.60207,16.66045,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+5,2024-06,VA,Virginia,COM,commercial,452546,9.54,602.80674,6320.7112,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+6,2024-05,VA,Virginia,IND,industrial,3969,8.76,130.86412,1493.62558,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+7,2024-05,VA,Virginia,OTH,other,,,,,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+8,2024-05,VA,Virginia,RES,residential,3676008,15.02,467.06522,3108.71274,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+9,2024-05,VA,Virginia,TRA,transportation,1,10.49,2.34189,22.33092,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+10,2024-05,VA,Virginia,ALL,all sectors,4132615,11.1,1131.59373,10190.60917,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+11,2024-05,VA,Virginia,COM,commercial,452637,9.55,531.32249,5565.93993,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+12,2024-04,VA,Virginia,ALL,all sectors,4126833,10.81,1058.38509,9789.36568,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+13,2024-04,VA,Virginia,TRA,transportation,1,9.84,.47223,4.8001,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+14,2024-04,VA,Virginia,RES,residential,3670665,14.99,416.89959,2781.59753,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+15,2024-04,VA,Virginia,OTH,other,,,,,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+16,2024-04,VA,Virginia,IND,industrial,3925,8.58,121.99194,1421.33295,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+17,2024-04,VA,Virginia,COM,commercial,452242,9.3,519.02133,5581.6351,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+18,2024-03,VA,Virginia,ALL,all sectors,4121875,10.82,1131.05922,10449.13526,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+19,2024-03,VA,Virginia,TRA,transportation,1,10.05,2.38768,23.76962,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+20,2024-03,VA,Virginia,RES,residential,3666575,14.72,497.4691,3379.00753,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+21,2024-03,VA,Virginia,OTH,other,,,,,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+22,2024-03,VA,Virginia,IND,industrial,3887,8.53,124.16809,1455.65369,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+23,2024-03,VA,Virginia,COM,commercial,451412,9.07,507.03435,5590.70442,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+24,2024-02,VA,Virginia,TRA,transportation,1,8.78,2.1637,24.63057,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+25,2024-02,VA,Virginia,ALL,all sectors,4121231,10.77,1197.77515,11122.55508,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+26,2024-02,VA,Virginia,RES,residential,3665479,13.97,562.55157,4026.30662,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+27,2024-02,VA,Virginia,COM,commercial,451847,9.04,515.73236,5707.08381,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+28,2024-02,VA,Virginia,IND,industrial,3904,8.6,117.32753,1364.53407,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+29,2024-02,VA,Virginia,OTH,other,,,,,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+30,2024-01,VA,Virginia,IND,industrial,3800,8.59,122.35588,1424.72292,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+31,2024-01,VA,Virginia,OTH,other,,,,,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+32,2024-01,VA,Virginia,RES,residential,3663153,13.5,683.41282,5063.59759,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+33,2024-01,VA,Virginia,TRA,transportation,1,10.03,2.13422,21.27681,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+34,2024-01,VA,Virginia,ALL,all sectors,4119191,11.12,1348.6265,12130.24011,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+35,2024-01,VA,Virginia,COM,commercial,452237,9.62,540.72359,5620.64278,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+36,2023-12,VA,Virginia,RES,residential,3655480,13.61,576.50703,4237.24476,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+37,2023-12,VA,Virginia,OTH,other,,,,,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+38,2023-12,VA,Virginia,IND,industrial,3847,8.37,116.62855,1393.16773,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+39,2023-12,VA,Virginia,COM,commercial,452122,8.88,506.9299,5707.14659,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+40,2023-12,VA,Virginia,ALL,all sectors,4111450,10.58,1202.28789,11359.84026,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+41,2023-12,VA,Virginia,TRA,transportation,1,9.97,2.22241,22.28118,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+42,2023-11,VA,Virginia,ALL,all sectors,4105712,10.65,1103.21171,10357.72759,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+43,2023-11,VA,Virginia,TRA,transportation,1,9.97,1.94482,19.51406,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+44,2023-11,VA,Virginia,RES,residential,3650002,13.99,479.37892,3426.23105,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+45,2023-11,VA,Virginia,OTH,other,,,,,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+46,2023-11,VA,Virginia,IND,industrial,3814,8.73,119.0182,1363.61474,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+47,2023-11,VA,Virginia,COM,commercial,451895,9.06,502.86977,5548.36774,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+48,2023-10,VA,Virginia,ALL,all sectors,4107430,10.47,1065.96161,10180.4979,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+49,2023-10,VA,Virginia,TRA,transportation,1,9.98,2.04838,20.53481,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+50,2023-10,VA,Virginia,IND,industrial,3761,8.62,137.49048,1594.99243,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+51,2023-10,VA,Virginia,OTH,other,,,,,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+52,2023-10,VA,Virginia,RES,residential,3654806,14.27,404.67655,2836.65108,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+53,2023-10,VA,Virginia,COM,commercial,448862,9.11,521.74619,5728.31958,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+54,2023-09,VA,Virginia,ALL,all sectors,4090083,10.72,1135.65588,10590.03896,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+55,2023-09,VA,Virginia,COM,commercial,448931,8.57,486.78462,5681.66421,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+56,2023-09,VA,Virginia,IND,industrial,3756,8.99,116.19747,1292.72093,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+57,2023-09,VA,Virginia,OTH,other,,,,,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+58,2023-09,VA,Virginia,RES,residential,3637395,14.79,529.43133,3579.6868,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+59,2023-09,VA,Virginia,TRA,transportation,1,9.02,3.24247,35.96703,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+60,2023-08,VA,Virginia,OTH,other,,,,,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+61,2023-08,VA,Virginia,IND,industrial,3743,8.59,123.01975,1431.92008,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+62,2023-08,VA,Virginia,RES,residential,3667163,13.95,653.0751,4683.15165,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+63,2023-08,VA,Virginia,TRA,transportation,1,10.36,2.44411,23.5856,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+64,2023-08,VA,Virginia,ALL,all sectors,4120365,10.73,1371.27472,12782.80561,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+65,2023-08,VA,Virginia,COM,commercial,449458,8.92,592.73576,6644.14828,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+66,2023-07,VA,Virginia,TRA,transportation,1,10.91,2.59585,23.79117,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+67,2023-07,VA,Virginia,ALL,all sectors,4088134,10.88,1361.96375,12523.64289,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+68,2023-07,VA,Virginia,RES,residential,3633034,13.97,624.59219,4470.18,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+69,2023-07,VA,Virginia,COM,commercial,451393,9.13,597.60368,6546.28489,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+70,2023-07,VA,Virginia,IND,industrial,3706,9.25,137.17203,1483.38683,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+71,2023-07,VA,Virginia,OTH,other,,,,,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+72,2023-06,VA,Virginia,ALL,all sectors,4085705,11.12,1163.96188,10465.8999,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+73,2023-06,VA,Virginia,COM,commercial,446786,9.27,525.53631,5666.57656,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+74,2023-06,VA,Virginia,RES,residential,3635223,15.21,514.71832,3384.34909,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+75,2023-06,VA,Virginia,OTH,other,,,,,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+76,2023-06,VA,Virginia,IND,industrial,3695,8.71,121.31918,1392.21554,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+77,2023-06,VA,Virginia,TRA,transportation,1,10.49,2.38808,22.7587,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+78,2023-05,VA,Virginia,IND,industrial,3679,8.89,131.57141,1480.5631,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+79,2023-05,VA,Virginia,OTH,other,,,,,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+80,2023-05,VA,Virginia,RES,residential,3623627,15.27,399.98979,2619.69184,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+81,2023-05,VA,Virginia,TRA,transportation,1,10.76,2.33703,21.72821,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+82,2023-05,VA,Virginia,ALL,all sectors,4073538,11,1089.3296,9901.15554,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+83,2023-05,VA,Virginia,COM,commercial,446231,9.61,555.43137,5779.17239,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+84,2023-04,VA,Virginia,RES,residential,3628562,14.65,424.29643,2896.22319,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+85,2023-04,VA,Virginia,OTH,other,,,,,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+86,2023-04,VA,Virginia,IND,industrial,3683,8.43,106.01746,1257.9992,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+87,2023-04,VA,Virginia,COM,commercial,449393,9.32,452.14848,4851.98593,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+88,2023-04,VA,Virginia,ALL,all sectors,4081639,10.91,982.6867,9007.76621,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+89,2023-04,VA,Virginia,TRA,transportation,1,14.4,.22432,1.55789,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+90,2023-03,VA,Virginia,IND,industrial,3678,9.06,138.06852,1524.52129,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+91,2023-03,VA,Virginia,OTH,other,,,,,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+92,2023-03,VA,Virginia,RES,residential,3627378,14.74,514.10185,3488.2625,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+93,2023-03,VA,Virginia,TRA,transportation,1,11.06,1.82873,16.53683,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+94,2023-03,VA,Virginia,ALL,all sectors,4079833,11.13,1188.7297,10682.71351,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+95,2023-03,VA,Virginia,COM,commercial,448776,9.46,534.7306,5653.39289,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+96,2023-02,VA,Virginia,ALL,all sectors,4070435,11.16,1111.88688,9959.92493,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+97,2023-02,VA,Virginia,TRA,transportation,1,11.32,1.86487,16.46924,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+98,2023-02,VA,Virginia,RES,residential,3619002,14.4,520.15676,3611.19506,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+99,2023-02,VA,Virginia,OTH,other,,,,,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+100,2023-02,VA,Virginia,IND,industrial,3664,8.93,123.96602,1387.67972,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+101,2023-02,VA,Virginia,COM,commercial,447768,9.42,465.89924,4944.58091,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+102,2023-01,VA,Virginia,ALL,all sectors,4070280,11.76,1258.2641,10696.00511,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+103,2023-01,VA,Virginia,COM,commercial,448168,10.32,499.80087,4844.27732,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+104,2023-01,VA,Virginia,IND,industrial,3675,9.39,126.31832,1344.93917,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+105,2023-01,VA,Virginia,OTH,other,,,,,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+106,2023-01,VA,Virginia,RES,residential,3618436,14.03,630.32808,4491.90335,number of customers,cents per kilowatthour,million dollars,million kilowatthours
+107,2023-01,VA,Virginia,TRA,transportation,1,12.21,1.81683,14.88526,number of customers,cents per kilowatthour,million dollars,million kilowatthours
