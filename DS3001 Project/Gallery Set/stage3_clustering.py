@@ -157,6 +157,7 @@ def evaluate_clean(feats, labels, original_total, model_name):
     label2int = {l: i for i, l in enumerate(unique_labels)}
     true_int = np.array([label2int[l] for l in labels])
     feats_norm = normalize(feats)
+    extracted_total = len(labels)
 
     kmeans = KMeans(n_clusters=NUM_IDENTITIES, n_init=20, random_state=42)
     pred_clusters = kmeans.fit_predict(feats_norm)
@@ -170,14 +171,16 @@ def evaluate_clean(feats, labels, original_total, model_name):
     mapped = np.array([cluster2label[p] for p in pred_clusters])
 
     correct_matches = sum(true_int == mapped)
-    strict_acc = correct_matches / original_total
+    strict_acc = correct_matches / extracted_total if extracted_total > 0 else 0.0
+    coverage = extracted_total / original_total if original_total > 0 else 0.0
 
     centroids = kmeans.cluster_centers_
     sims = np.sum(feats_norm * centroids[pred_clusters], axis=1)
     threshold = np.min(sims) * 0.90
 
     print(f"\n[{model_name} - Clean Data]")
-    print(f"Accuracy : {strict_acc * 100:.2f}% ({correct_matches}/{original_total})")
+    print(f"Accuracy : {strict_acc * 100:.2f}% ({correct_matches}/{extracted_total})")
+    print(f"Coverage : {coverage * 100:.2f}% ({extracted_total}/{original_total})")
     print(f"Threshold: {threshold:.3f}")
 
     cm = confusion_matrix(true_int, pred_clusters, labels=list(range(NUM_IDENTITIES)))
@@ -200,6 +203,7 @@ def evaluate_noisy(prb_feats, prb_labels, original_labels, kmeans, cluster2label
     original_true = np.array(original_labels)
     total_original_known = sum(original_true != "Unknown")
     total_original_unknown = sum(original_true == "Unknown")
+    extracted_total = len(prb_labels)
 
     if len(prb_feats) == 0:
         print(f"\n[{model_name} - Noisy Data] No valid features extracted.")
@@ -224,15 +228,19 @@ def evaluate_noisy(prb_feats, prb_labels, original_labels, kmeans, cluster2label
 
     known_mask = prb_true != "Unknown"
     correct_known = sum(prb_pred[known_mask] == prb_true[known_mask])
-    strict_known_acc = correct_known / total_original_known if total_original_known > 0 else 0
+    strict_known_acc = correct_known / sum(known_mask) if sum(known_mask) > 0 else 0
+    known_coverage = sum(known_mask) / total_original_known if total_original_known > 0 else 0
 
     unknown_mask = prb_true == "Unknown"
     correct_rejections = sum(prb_pred[unknown_mask] == "Unknown")
-    strict_rej_rate = correct_rejections / total_original_unknown if total_original_unknown > 0 else 0
+    strict_rej_rate = correct_rejections / sum(unknown_mask) if sum(unknown_mask) > 0 else 0
+    unknown_coverage = sum(unknown_mask) / total_original_unknown if total_original_unknown > 0 else 0
 
     print(f"\n[{model_name} - Noisy Data]")
-    print(f"Known Acc: {strict_known_acc * 100:.2f}% ({correct_known}/{total_original_known})")
-    print(f"Rej. Rate: {strict_rej_rate * 100:.2f}% ({correct_rejections}/{total_original_unknown})")
+    print(f"Known Acc: {strict_known_acc * 100:.2f}% ({correct_known}/{sum(known_mask)})")
+    print(f"Known Cov: {known_coverage * 100:.2f}% ({sum(known_mask)}/{total_original_known})")
+    print(f"Rej. Rate: {strict_rej_rate * 100:.2f}% ({correct_rejections}/{sum(unknown_mask)})")
+    print(f"Ukn.  Cov: {unknown_coverage * 100:.2f}% ({sum(unknown_mask)}/{total_original_unknown})")
 
     all_labels = unique_labels + ["Unknown"]
     cm = confusion_matrix(prb_true, prb_pred, labels=all_labels)
