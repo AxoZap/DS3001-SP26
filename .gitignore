@@ -12,6 +12,4 @@
 
 # Track the renamed project folder, but exclude local-only data and IDE files
 /Project/.idea/
-/Project/Testing Day/
-/Project/Gallery Set/
-/Project/Probe Set/
+
